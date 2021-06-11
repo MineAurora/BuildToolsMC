@@ -32,4 +32,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: BuildToolsMC
-        path: ./home/runner/work/BuildToolsMC/BuildToolsMC/
+        path: ./home/runner/work/BuildToolsMC/BuildToolsMC
