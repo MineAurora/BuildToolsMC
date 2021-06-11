@@ -19,7 +19,7 @@ jobs:
     - name: Set up JDK 16
       uses: actions/setup-java@v2
       with:
-        java-version: '11'
+        java-version: '16'
         distribution: 'adopt'
         
     - name: pwd
@@ -31,5 +31,5 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-artifact@v2
       with:
-        name: AppliedEnergistics2
-        path: ./build/libs/*.jar
+        name: BuildToolsMC
+        path: ./home/runner/work/BuildToolsMC/BuildToolsMC/
